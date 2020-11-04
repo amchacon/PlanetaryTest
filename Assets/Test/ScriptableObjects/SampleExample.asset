@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd4a55638be834205aa69a18a9eb7e71, type: 3}
+  m_Name: SampleExample
+  m_EditorClassIdentifier: 
+  Stars:
+  - StartPos: {x: 0, y: 0}
+    Mass: 33
+    RenderColor: {r: 0, g: 0, b: 1, a: 1}
+    Segments: 3
+    Satellites:
+    - SameShape: 0
+      Segments: 3
+      SameColor: 0
+      RenderColor: {r: 0, g: 0, b: 1, a: 1}
+    - SameShape: 1
+      Segments: 3
+      SameColor: 1
+      RenderColor: {r: 0, g: 0, b: 1, a: 1}
+    - SameShape: 1
+      Segments: 3
+      SameColor: 1
+      RenderColor: {r: 0, g: 0, b: 1, a: 1}
+  - StartPos: {x: 5, y: 5}
+    Mass: 35.4
+    RenderColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    Segments: 4
+    Satellites:
+    - SameShape: 1
+      Segments: 4
+      SameColor: 0
+      RenderColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    - SameShape: 0
+      Segments: 4
+      SameColor: 1
+      RenderColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  - StartPos: {x: -7, y: -7}
+    Mass: 36.5
+    RenderColor: {r: 0, g: 1, b: 0, a: 1}
+    Segments: 5
+    Satellites:
+    - SameShape: 1
+      Segments: 5
+      SameColor: 1
+      RenderColor: {r: 0, g: 1, b: 0, a: 1}
+    - SameShape: 1
+      Segments: 5
+      SameColor: 1
+      RenderColor: {r: 0, g: 1, b: 0, a: 1}
+    - SameShape: 1
+      Segments: 5
+      SameColor: 1
+      RenderColor: {r: 0, g: 1, b: 0, a: 1}
+  - StartPos: {x: -5, y: 9}
+    Mass: 36.6
+    RenderColor: {r: 0, g: 1, b: 1, a: 1}
+    Segments: 5
+    Satellites:
+    - SameShape: 0
+      Segments: 5
+      SameColor: 0
+      RenderColor: {r: 0, g: 1, b: 1, a: 1}
+    - SameShape: 0
+      Segments: 5
+      SameColor: 0
+      RenderColor: {r: 0, g: 1, b: 1, a: 1}
+    - SameShape: 0
+      Segments: 5
+      SameColor: 0
+      RenderColor: {r: 0, g: 1, b: 1, a: 1}
+  ShowShip: 1
